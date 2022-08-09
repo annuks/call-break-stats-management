@@ -1,0 +1,17 @@
+#player_list container {
+  padding: 10px;
+  display: flex;
+  margin: 18px; }
+
+div {
+  border: solid 1px gray;
+  display: flex;
+  justify-content: space-between;
+  margin: 5px; }
+  div input {
+    width: auto; }
+
+button {
+  color: black;
+  display: flex;
+  justify-content: center; }

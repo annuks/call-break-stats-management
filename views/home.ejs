@@ -1,10 +1,26 @@
-
+<link rel="stylesheet" href="/css/home.css" />
 <head>
     <title>
         <%= title %>
     </title>
 </head>
 <body>
-    <h1> Call Break</h1>
+ <form action="/create" method="post"></form>
+    <h3> Add Players</h3>
+    <div id="main_container">
+    <button class="btn btn-outline-info float-end " onclick="addPlayer()"> + </button>
+  </div>
+
+
+
+<div id="add_player_container">
+  <button class="btn btn-outline-danger float-end" onclick="closeAddPlayer()">X</button>
+  <h4>Add Players</h4>
+</div>
+<div id="addplayer-container">
+  <%- include('_newGame') %>
+</div>
+
+  </form>
 </body>
-</html>
+<script  src="/js/newGame.js"></script>
